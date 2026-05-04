@@ -1,0 +1,4 @@
+interface:
+  display_name: "Material 3"
+  short_description: "Implement Google's Material Design 3 in Jetpack Compose, Flutter, or web"
+  default_prompt: "Use $material-3 to build Material Design 3 UI (tokens, components, theming, layout, audit). Primary: Jetpack Compose; secondary: Flutter; limited: @material/web."

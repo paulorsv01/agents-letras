@@ -1,0 +1,4 @@
+interface:
+  display_name: "SwiftUI Expert"
+  short_description: "Write and review SwiftUI code"
+  default_prompt: "Use $swiftui-expert-skill to write, review, or improve SwiftUI code with Apple-native best practices and modern patterns."

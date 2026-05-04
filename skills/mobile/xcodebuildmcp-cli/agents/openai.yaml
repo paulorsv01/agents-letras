@@ -1,0 +1,4 @@
+interface:
+  display_name: "XcodeBuild MCP"
+  short_description: "Build, test, and debug Apple platform apps"
+  default_prompt: "Use $xcodebuildmcp-cli to build, test, run, debug, log, or automate UI for iOS, macOS, watchOS, tvOS, or visionOS apps."
