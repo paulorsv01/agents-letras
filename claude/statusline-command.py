@@ -6,6 +6,7 @@ import os
 import re
 import subprocess
 import sys
+from typing import Optional
 
 RESET = "\033[0m"
 ANSI_CODE_RE = re.compile(r"^\d+(?:;\d+)*$")
@@ -29,7 +30,7 @@ def c(code: str, text: object) -> str:
     return f"\033[{code}m{plain_text}{RESET}"
 
 
-def to_float(value: object) -> float | None:
+def to_float(value: object) -> Optional[float]:
     if value is None:
         return None
     if isinstance(value, (int, float)):
@@ -48,10 +49,10 @@ def main() -> None:
     parts: list[str] = []
     sep = c("90", " · ")  # bright black — visible on light & dark terminals
 
-    # Model — bold bright white
+    # Model — bold green, readable on light and dark themes
     model = (data.get("model") or {}).get("display_name", "")
     if model:
-        parts.append(c("1;97", model))
+        parts.append(c("1;32", model))
 
     # Context remaining
     ctx = data.get("context_window") or {}
