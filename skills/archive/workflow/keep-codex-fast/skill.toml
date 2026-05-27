@@ -1,0 +1,10 @@
+version = 1
+name = "keep-codex-fast"
+remote = true
+dirty = false
+license = "MIT"
+status = "clean"
+
+[[sources]]
+url = "https://github.com/vibeforge1111/keep-codex-fast"
+ref = "main"

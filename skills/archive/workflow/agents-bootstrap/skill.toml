@@ -1,0 +1,7 @@
+version = 1
+name = "agents-bootstrap"
+remote = false
+dirty = false
+license = "MIT"
+status = "local"
+notes = "Written for repo-local AGENTS.md and CLAUDE.md bootstrapping."

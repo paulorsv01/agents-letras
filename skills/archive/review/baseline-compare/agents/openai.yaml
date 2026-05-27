@@ -1,0 +1,4 @@
+interface:
+  display_name: "Baseline Compare"
+  short_description: "Compare something against a named baseline"
+  default_prompt: "Use $baseline-compare to compare this repo, config, workflow, UI, or document against a named baseline and report only the meaningful gaps."

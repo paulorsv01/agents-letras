@@ -1,0 +1,7 @@
+version = 1
+name = "baseline-compare"
+remote = false
+dirty = false
+license = "Unknown"
+status = "local"
+notes = "No remote source recorded."

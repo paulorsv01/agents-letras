@@ -1,0 +1,4 @@
+interface:
+  display_name: "Issue Bucketer"
+  short_description: "Split broad sweeps into disjoint issue buckets"
+  default_prompt: "Use $issue-bucketer to turn this broad sweep into 2-4 disjoint buckets with clear scope, ignore rules, and completion criteria."

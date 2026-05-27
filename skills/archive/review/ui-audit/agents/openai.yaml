@@ -1,0 +1,4 @@
+interface:
+  display_name: "UI Audit"
+  short_description: "Audit interfaces against UX principles"
+  default_prompt: "Use $ui-audit to audit this interface for visual hierarchy, accessibility, cognitive load, and navigation issues."

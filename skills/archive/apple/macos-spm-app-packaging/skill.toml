@@ -1,0 +1,11 @@
+version = 1
+name = "macos-spm-app-packaging"
+remote = true
+dirty = false
+license = "MIT"
+status = "clean"
+
+[[sources]]
+url = "https://github.com/Dimillian/Skills/tree/main/macos-spm-app-packaging"
+ref = "main"
+path = "macos-spm-app-packaging"

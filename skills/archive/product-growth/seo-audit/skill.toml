@@ -1,0 +1,11 @@
+version = 1
+name = "seo-audit"
+remote = true
+dirty = false
+license = "MIT"
+status = "clean"
+
+[[sources]]
+url = "https://github.com/coreyhaines31/marketingskills/tree/main/skills/seo-audit"
+ref = "main"
+path = "skills/seo-audit"

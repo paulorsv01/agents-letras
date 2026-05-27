@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex Insights"
+  short_description: "Analyze local Codex usage and workflow patterns"
+  default_prompt: "Use $codex-insights to run the fixed generator at ~/.agents/skills/codex-insights/scripts/generate-codex-insights.mjs, review the generated summary.json and insights.json, and return the report.html/report.md artifact paths plus a short At a Glance summary."
