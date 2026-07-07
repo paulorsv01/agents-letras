@@ -4,4 +4,4 @@ remote = false
 dirty = false
 license = "Unknown"
 status = "unknown"
-notes = "README records source and license as unknown; confirm before enabling remote updates."
+notes = "Source: Emil Kowalski — \"Animations on the Web\" (animations.dev); license unknown (paid course). Confirm before enabling remote updates."

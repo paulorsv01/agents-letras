@@ -19,9 +19,9 @@ mobile behavior, URL state, layout, content resilience, and other concrete web r
 
 Do not use this skill for:
 
-- high-level UX/product critique -> use `ui-audit`
+- high-level UX/product critique -> use `design-engineering`
 - art direction or visual concept work -> use `frontend-design`
-- React/Tailwind local implementation rules -> use `react-ui-standards`
+- React/Tailwind local implementation rules -> use `react-best-practices`
 
 ## How It Works
 

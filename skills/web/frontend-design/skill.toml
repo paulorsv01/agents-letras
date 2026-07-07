@@ -1,0 +1,12 @@
+version = 1
+name = "frontend-design"
+remote = false
+dirty = false
+license = "see LICENSE.txt at source"
+status = "unknown"
+notes = "README records this source; SKILL.md copied from the public Anthropic repo."
+
+[[sources]]
+url = "https://github.com/anthropics/claude-code/tree/main/plugins/frontend-design/skills/frontend-design"
+ref = "main"
+path = "plugins/frontend-design/skills/frontend-design"

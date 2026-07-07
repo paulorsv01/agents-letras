@@ -1,0 +1,7 @@
+version = 1
+name = "build-web-apps"
+remote = false
+dirty = false
+license = "Unknown"
+status = "local"
+notes = "Umbrella dispatcher skill. Bundles the web UI member skills: product-ui-direction, frontend-design, tailwind-ui, markup-from-image, material-3, design-engineering, web-animation-design, make-responsive, componentize, canonicalize-tailwind, ui-picker, web-design-guidelines, next-best-practices, next-cache-components, react-best-practices, react-component-performance. License caveat: frontend-design, design-engineering, and web-animation-design have unconfirmed licenses (status unknown) — confirm before enabling remote updates."

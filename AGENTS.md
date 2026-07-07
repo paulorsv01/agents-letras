@@ -57,12 +57,13 @@ References:
 ## Subagents And Models
 
 - Pick the model per task by cost vs intelligence, not by habit. Delegating a subagent means choosing its tier deliberately; when unsure, state the choice and why.
+- For complex or multi-part work, default to orchestrating: decompose into subtasks and delegate each to a subagent at the right tier, rather than doing it all directly yourself. Reserve direct execution for work small enough to finish in one pass.
 - `claude-opus-4-8` is the default. Move off it only for the reasons named per level below; a mixed fleet beats one tier everywhere.
-- Models, rated cost 1-10 and intelligence 1-10 (relative scales):
-    - `claude-haiku-4-5` — cost 2, intelligence 2. Only for very pinpoint edits where the plan is fully defined and spelled out step by step — executes explicit instructions, makes no design decisions.
-    - `claude-sonnet-5` — cost 4, intelligence 6. Mechanical, high-volume, parallel work: search/grep fan-out, extraction, classification, formatting, bulk edits, straightforward implementation.
-    - `claude-opus-4-8` — cost 6, intelligence 7.5. The default for real work: reasoning, implementation, review, architecture, and anything requiring judgment.
-    - `claude-fable-5` — cost 10, intelligence 10. Exceptional cases only — the hardest reasoning and long-horizon autonomous runs that Opus cannot carry. Justify the spend.
+- Models, rated cost 1-10 (real cost per task, not per-token list price) and intelligence 1-10 (relative scales):
+    - `claude-haiku-4-5` — cost 1, intelligence 2. Only for very pinpoint edits where the plan is fully defined and spelled out step by step — executes explicit instructions, makes no design decisions.
+    - `claude-sonnet-5` — cost 10, intelligence 6. Mechanical, high-volume, parallel work: search/grep fan-out, extraction, classification, formatting, bulk edits, straightforward implementation. Cheapest per token of the three "real work" tiers, but on hard or under-specified tasks it burns far more steps chasing a solution — in aggregate this makes it the most expensive tier, not the cheapest. Only reach for it when the task is short and the plan is already concrete.
+    - `claude-opus-4-8` — cost 5, intelligence 7. The default for real work: reasoning, implementation, review, architecture, and anything requiring judgment. Cheapest of the three "real work" tiers in aggregate task cost despite a higher per-token price than sonnet.
+    - `claude-fable-5` — cost 8, intelligence 10. Exceptional cases only — the hardest reasoning and long-horizon autonomous runs that Opus cannot carry. Justify the spend.
 - Use only exact model IDs above. Never guess or append date suffixes.
 
 ## Skills And Docs
