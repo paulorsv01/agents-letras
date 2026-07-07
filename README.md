@@ -1,6 +1,6 @@
 # agents-letras
 
-Setup versionado para agentes de código: instruções globais, skills, subagents, configs de Claude/Codex, scripts de instalação e docs operacionais.
+Setup versionado para agentes de código: instruções globais, skills, subagents, configs do Claude, scripts de instalação e docs operacionais.
 
 Este repo versiona o que é útil reaproveitar. Ele não versiona runtime gerado, trusted projects, tokens, caches, logs, pets ou estado sensível específico de uma máquina.
 
@@ -24,7 +24,7 @@ Use o installer:
 ./install.sh
 ```
 
-Ele cria um hub em `~/.agents`, gera `.runtime/skills` com o `skills-cli`, aplica a config do Codex e cria symlinks para Claude e Codex.
+Ele cria um hub em `~/.agents`, gera `.runtime/skills` com o `skills-cli` e cria symlinks para o Claude.
 
 ## Layout
 
@@ -32,8 +32,8 @@ Ele cria um hub em `~/.agents`, gera `.runtime/skills` com o `skills-cli`, aplic
 AGENTS.md              # instruções base para agentes
 agents/                # subagents
 claude/                # settings, MCP template e statusline do Claude
-codex/                 # config, regras e custom agents do Codex
-docs/                  # docs de arquitetura, import, GitHub e tooling
+docs/                  # docs operacionais: layout de paths e referência
+instructions/          # docs longos de instrução referenciados pelo AGENTS.md
 scripts/               # helpers de sync, validação e config
 skills/                # skills source, agrupadas por categoria
 skills.toml            # config do skills-cli
@@ -45,7 +45,6 @@ install.sh             # installer idempotente por symlink
 
 - `.runtime/`: gerado pelo `skills-cli`.
 - trusted projects, OAuth, IDs de usuário e histórico local.
-- `codex/plugins-cache` e `codex/plugin-sources`: caches locais.
 - `pets/`: não faz parte deste repo.
 - secrets, tokens, `.env*`, trusted projects, logs e dumps de ambiente.
 
@@ -59,3 +58,7 @@ git diff --check
 ```
 
 Quem não usa `skills-cli` pode ignorar os comandos de skills e copiar/symlinkar as pastas manualmente.
+
+## Licença
+
+O `LICENSE` (MIT) cobre apenas os arquivos próprios deste repo. Skills de terceiros em `skills/` mantêm suas licenças originais (ex.: várias skills do Google são Apache License 2.0); veja o arquivo de licença de cada skill.

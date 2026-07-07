@@ -1,7 +1,0 @@
-version = 1
-name = "create-cli"
-remote = false
-dirty = false
-license = "MIT"
-status = "local"
-notes = "No remote source recorded."

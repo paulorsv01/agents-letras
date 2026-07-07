@@ -1,0 +1,11 @@
+version = 1
+name = 'compose-recomposition-performance'
+remote = true
+dirty = false
+license = 'Apache-2.0'
+status = 'clean'
+
+[[sources]]
+url = 'https://github.com/chrisbanes/skills/tree/main/skills/compose-recomposition-performance'
+ref = 'main'
+path = 'skills/compose-recomposition-performance'

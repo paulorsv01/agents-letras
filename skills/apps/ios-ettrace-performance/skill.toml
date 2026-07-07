@@ -1,0 +1,11 @@
+version = 1
+name = 'ios-ettrace-performance'
+remote = true
+dirty = false
+license = 'No explicit license found in the upstream repository when this metadata was written.'
+status = 'clean'
+
+[[sources]]
+url = 'https://github.com/openai/plugins/tree/main/plugins/build-ios-apps/skills/ios-ettrace-performance'
+ref = 'main'
+path = 'plugins/build-ios-apps/skills/ios-ettrace-performance'

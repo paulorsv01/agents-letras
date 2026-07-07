@@ -1,7 +1,0 @@
-version = 1
-name = "codex-insights"
-remote = false
-dirty = false
-license = "MIT"
-status = "local"
-notes = "Written for local Codex session analysis."

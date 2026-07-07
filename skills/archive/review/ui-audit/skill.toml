@@ -1,7 +1,0 @@
-version = 1
-name = "ui-audit"
-remote = false
-dirty = false
-license = "Unknown"
-status = "unknown"
-notes = "Frontmatter credits Tommy Geoco and https://audit.uxtools.co; no updateable Git source recorded."

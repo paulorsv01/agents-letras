@@ -10,39 +10,9 @@ runtime_dir = ".runtime/skills"
 archive_dir = "skills/archive"
 
 [[categories]]
-slug = "workflow"
-title = "Workflow"
-description = "Agent workflows, repo setup, maintenance, and handoff helpers."
-
-[[categories]]
-slug = "research"
-title = "Research"
-description = "Codebase exploration, architectural explanation, and second-opinion validation."
-
-[[categories]]
-slug = "review"
-title = "Review"
-description = "Diff review, quality passes, risk checks, and simplification workflows."
-
-[[categories]]
-slug = "git-github"
-title = "Git and GitHub"
-description = "GitHub, pull request, issue, and repository operations."
-
-[[categories]]
-slug = "automation"
-title = "Automation"
-description = "Browser, desktop, and external task automation."
-
-[[categories]]
-slug = "mobile"
-title = "Mobile"
-description = "Android, Kotlin Multiplatform, Gradle, emulator, and mobile UI skills."
-
-[[categories]]
-slug = "apple"
-title = "Apple"
-description = "Swift, SwiftUI, iOS, macOS, Xcode, and Apple platform workflows."
+slug = "apps"
+title = "Apps"
+description = "iOS, macOS, Swift, Android, Kotlin Multiplatform, Compose, and native app development."
 
 [[categories]]
 slug = "web"
@@ -50,32 +20,18 @@ title = "Web"
 description = "Frontend, React, Next.js, UI systems, web performance, and web design skills."
 
 [[categories]]
-slug = "cloud"
-title = "Cloud"
-description = "Cloud platform, edge runtime, workers, deployment, and infrastructure skills."
-
-[[categories]]
 slug = "product-growth"
 title = "Product Growth"
 description = "Product direction, copy, pricing, SEO, and growth skills."
 
 [[categories]]
-slug = "fun"
-title = "Fun"
-description = "Playful, experimental, or intentionally non-serious skills."
-
-[[categories]]
-slug = "uncategorized"
-title = "Uncategorized"
-description = "Skills imported before a category decision exists."
+slug = "engineering"
+title = "Engineering"
+description = "Code review, codebase audits, improvement plans, and design stress-testing."
 
 [[links]]
 name = "agents"
 path = "~/.agents/skills"
-
-[[links]]
-name = "codex"
-path = "~/.codex/skills"
 
 [[links]]
 name = "claude"

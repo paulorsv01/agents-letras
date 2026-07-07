@@ -1,0 +1,7 @@
+version = 1
+name = "compose-multiplatform"
+remote = false
+dirty = false
+license = "Unknown"
+status = "local"
+notes = "House-authored skill (original content, researched against JetBrains Compose Multiplatform docs); license follows the repository. Fills the CMP shared-UI gap noted in build-kmp-apps."

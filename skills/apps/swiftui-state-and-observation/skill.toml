@@ -1,0 +1,7 @@
+version = 1
+name = "swiftui-state-and-observation"
+remote = false
+dirty = false
+license = "Unknown"
+status = "local"
+notes = "House-authored skill (original content, researched against Apple Observation docs); license follows the repository. Fills the SwiftUI state/Observation gap — the equivalent of the compose-state-* family."

@@ -1,0 +1,11 @@
+version = 1
+name = 'kotlin-tooling-java-to-kotlin'
+remote = true
+dirty = false
+license = 'Apache-2.0'
+status = 'clean'
+
+[[sources]]
+url = 'https://github.com/Kotlin/kotlin-agent-skills/tree/main/skills/kotlin-tooling-java-to-kotlin'
+ref = 'main'
+path = 'skills/kotlin-tooling-java-to-kotlin'

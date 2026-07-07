@@ -1,0 +1,12 @@
+version = 1
+name = 'improvement-plan'
+remote = true
+dirty = true
+license = 'MIT'
+status = 'adapted'
+notes = 'Frontmatter description shortened to fit local skills doctor routing checks; upstream body unchanged.'
+
+[[sources]]
+url = 'https://github.com/shadcn/improve/tree/main/skills/improve'
+ref = 'main'
+path = 'skills/improve'

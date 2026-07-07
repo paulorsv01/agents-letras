@@ -1,4 +1,0 @@
-interface:
-  display_name: "SEO Audit"
-  short_description: "Audit and fix SEO issues on any site"
-  default_prompt: "Use $seo-audit to audit technical SEO, on-page SEO, content quality, and Core Web Vitals for any site."

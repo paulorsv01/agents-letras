@@ -5,7 +5,8 @@ Config para Claude Code.
 ## Arquivos
 
 - `settings.json`: preferências globais do Claude, permissões, statusline e comportamento padrão.
-- `mcp.json`: template de MCP servers. Usa env vars para tokens; não guarda valores secretos.
+- `claude.json`: baseline de estado/config do Claude, symlinkado para `~/.claude.json`.
+- `mcp.json`: template de MCP servers (endpoints HTTP públicos); não guarda tokens nem valores secretos. Credenciais, se necessárias, ficam fora do repo.
 - `statusline-command.py`: statusline custom com modelo, contexto restante, custo, branch e rate limits.
 - `statusline.png`: preview visual da statusline.
 
@@ -16,6 +17,7 @@ O installer cria:
 ```text
 ~/.agents/claude             -> <repo>/claude
 ~/.claude/settings.json      -> ~/.agents/claude/settings.json
+~/.claude.json               -> ~/.agents/claude/claude.json
 ~/.claude/CLAUDE.md          -> ~/.agents/AGENTS.md
 ~/.claude/agents             -> ~/.agents/agents
 ~/.claude/skills             -> ~/.agents/skills

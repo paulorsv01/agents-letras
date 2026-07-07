@@ -1,0 +1,11 @@
+version = 1
+name = 'compose-state-holder-ui-split'
+remote = true
+dirty = false
+license = 'Apache-2.0'
+status = 'clean'
+
+[[sources]]
+url = 'https://github.com/chrisbanes/skills/tree/main/skills/compose-state-holder-ui-split'
+ref = 'main'
+path = 'skills/compose-state-holder-ui-split'

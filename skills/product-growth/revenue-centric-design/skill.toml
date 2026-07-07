@@ -1,0 +1,11 @@
+version = 1
+name = "revenue-centric-design"
+remote = true
+dirty = false
+license = "MIT"
+status = "clean"
+
+[[sources]]
+url = "https://github.com/heliocosta-dev/revenue-centric-design"
+ref = "main"
+path = "."

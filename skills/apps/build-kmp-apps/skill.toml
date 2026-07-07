@@ -1,0 +1,7 @@
+version = 1
+name = "build-kmp-apps"
+remote = false
+dirty = false
+license = "Unknown"
+status = "local"
+notes = "Umbrella dispatcher skill. Bundles compose-multiplatform (house) and kotlin-multiplatform-expect-actual (chrisbanes), plus JetBrains KMP tooling (kotlin-tooling-agp9-migration, kotlin-tooling-cocoapods-spm-migration, kotlin-tooling-java-to-kotlin), and routes to build-android-apps and build-ios-apps."

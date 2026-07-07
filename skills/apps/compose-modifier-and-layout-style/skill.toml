@@ -1,0 +1,11 @@
+version = 1
+name = 'compose-modifier-and-layout-style'
+remote = true
+dirty = false
+license = 'Apache-2.0'
+status = 'clean'
+
+[[sources]]
+url = 'https://github.com/chrisbanes/skills/tree/main/skills/compose-modifier-and-layout-style'
+ref = 'main'
+path = 'skills/compose-modifier-and-layout-style'

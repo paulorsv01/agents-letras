@@ -20,7 +20,7 @@ mobile behavior, URL state, layout, content resilience, and other concrete web r
 Do not use this skill for:
 
 - high-level UX/product critique -> use `ui-audit`
-- art direction or visual concept work -> use `frontend-skill`
+- art direction or visual concept work -> use `frontend-design`
 - React/Tailwind local implementation rules -> use `react-ui-standards`
 
 ## How It Works

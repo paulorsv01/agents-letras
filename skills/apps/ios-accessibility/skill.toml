@@ -1,0 +1,12 @@
+version = 1
+name = 'ios-accessibility'
+remote = true
+dirty = false
+license = 'PolyForm-Perimeter-1.0.0'
+status = 'clean'
+notes = 'dpearson2699/swift-ios-skills — PolyForm Perimeter: private use OK, do not redistribute or rebrand.'
+
+[[sources]]
+url = 'https://github.com/dpearson2699/swift-ios-skills/tree/main/skills/ios-accessibility'
+ref = 'main'
+path = 'skills/ios-accessibility'

@@ -1,11 +1,6 @@
 # scripts
 
-Helpers usados pelo installer, pelos hooks e pela manutenção do setup.
-
-## Config Codex
-
-- `sync-codex-plugins.py`: valida plugins declarados em `codex/config.toml`.
-- `sync-codex-windows.py`: helper opcional para WSL/Windows.
+Helpers usados pelo installer e pela manutenção do setup.
 
 ## Docs
 

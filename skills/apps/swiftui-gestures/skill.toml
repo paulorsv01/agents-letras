@@ -1,0 +1,12 @@
+version = 1
+name = 'swiftui-gestures'
+remote = true
+dirty = false
+license = 'PolyForm-Perimeter-1.0.0'
+status = 'clean'
+notes = 'dpearson2699/swift-ios-skills — PolyForm Perimeter: private use OK, do not redistribute or rebrand.'
+
+[[sources]]
+url = 'https://github.com/dpearson2699/swift-ios-skills/tree/main/skills/swiftui-gestures'
+ref = 'main'
+path = 'skills/swiftui-gestures'

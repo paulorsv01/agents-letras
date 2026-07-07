@@ -4,7 +4,7 @@ description: >-
   Turn a fuzzy product brief into a concrete UI direction before implementation. Use when the product,
   feature, app screen, dashboard, or landing page needs a clear category, operating mode, interface
   pattern, style family, palette direction, typography character, interaction intensity, anti-patterns,
-  and delivery checklist. Complements `frontend-skill` by choosing the right product direction before
+  and delivery checklist. Complements `frontend-design` by choosing the right product direction before
   art direction and execution.
 ---
 
@@ -12,10 +12,10 @@ description: >-
 
 Use this skill when the hard question is not "how do I code this?" but "what kind of interface should this product become?"
 
-This skill complements `frontend-skill`:
+This skill complements `frontend-design`:
 
 - `product-ui-direction` decides product fit, operating mode, UI pattern, style family, and anti-patterns
-- `frontend-skill` executes the chosen direction with strong composition and motion
+- `frontend-design` executes the chosen direction with strong composition and motion
 
 Skip this skill for pure backend work, non-visual automation, infrastructure tasks, or performance work that does not change how the interface looks, feels, moves, or is used.
 
@@ -51,6 +51,8 @@ Produce a compact but complete UI direction with:
 - **Operational**: dashboards, admin, analytics, internal tools. Bias to scanability, density, utility copy, durable structure.
 - **Expressive**: creative tools, media, music, fashion, lifestyle. Bias to stronger visual identity, but keep one clear operating model.
 - **Editorial**: publishing, storytelling, brand campaigns, portfolios. Bias to rhythm, pacing, image treatment, typography voice.
+- **Conversion**: signup, booking, purchase, waitlist, lead capture, contact sales. Bias to focused hierarchy, persuasive copy, clear primary action, minimal distraction.
+- **Creation**: editors, builders, design tools, content tools, AI generation surfaces. Bias to direct manipulation of an artifact, responsive feedback, low-friction controls.
 
 If two modes seem valid, choose the one that governs the user's main job, then borrow carefully from the second.
 

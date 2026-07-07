@@ -1,0 +1,7 @@
+version = 1
+name = "build-android-apps"
+remote = false
+dirty = false
+license = "MIT"
+status = "local"
+notes = "Umbrella dispatcher skill. Bundles official android/skills (android-cli, navigation-3, adaptive, edge-to-edge, agp-9-upgrade, testing-setup, r8-analyzer, perfetto-trace-analysis) plus chrisbanes Compose best-practices (compose-*)."

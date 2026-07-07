@@ -1,0 +1,12 @@
+version = 1
+name = 'swift-architecture'
+remote = true
+dirty = false
+license = 'PolyForm-Perimeter-1.0.0'
+status = 'clean'
+notes = 'dpearson2699/swift-ios-skills — PolyForm Perimeter: private use OK, do not redistribute or rebrand.'
+
+[[sources]]
+url = 'https://github.com/dpearson2699/swift-ios-skills/tree/main/skills/swift-architecture'
+ref = 'main'
+path = 'skills/swift-architecture'

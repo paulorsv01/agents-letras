@@ -1,0 +1,7 @@
+version = 1
+name = "growth"
+remote = false
+dirty = false
+license = "Unknown"
+status = "local"
+notes = "Umbrella dispatcher skill. Bundles the growth member skills: copywriting, pricing-strategy, seo-audit, revenue-centric-design."

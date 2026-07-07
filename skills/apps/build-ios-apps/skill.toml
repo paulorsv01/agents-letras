@@ -1,0 +1,7 @@
+version = 1
+name = "build-ios-apps"
+remote = false
+dirty = false
+license = "Unknown"
+status = "local"
+notes = "Umbrella dispatcher skill. Bundles core (swiftui, swift-concurrency — adapted AvdLee/Dimillian MIT; xcodebuildmcp-cli verbatim getsentry/XcodeBuildMCP MIT), openai/plugins diagnostics (ios-app-intents, ios-ettrace-performance, ios-memgraph-leaks — no explicit upstream license), MIT persistence/testing (swiftdata-pro, swift-testing-expert), dpearson2699 PolyForm granular skills (swiftui-navigation, swift-architecture, ios-accessibility, swiftui-animation, swiftui-gestures — private use only), and house swiftui-state-and-observation."

@@ -1,0 +1,11 @@
+version = 1
+name = 'swiftdata-pro'
+remote = true
+dirty = false
+license = 'MIT'
+status = 'clean'
+
+[[sources]]
+url = 'https://github.com/twostraws/SwiftData-Agent-Skill/tree/main/swiftdata-pro'
+ref = 'main'
+path = 'swiftdata-pro'

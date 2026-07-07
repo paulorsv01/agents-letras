@@ -44,7 +44,10 @@ def to_float(value: object) -> Optional[float]:
 
 
 def main() -> None:
-    data = json.load(sys.stdin)
+    try:
+        data = json.load(sys.stdin)
+    except (json.JSONDecodeError, ValueError):
+        return
 
     parts: list[str] = []
     sep = c("90", " · ")  # bright black — visible on light & dark terminals

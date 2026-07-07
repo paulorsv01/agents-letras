@@ -1,4 +1,0 @@
-interface:
-  display_name: "macOS Tuist App"
-  short_description: "Build macOS apps with Tuist and SwiftUI"
-  default_prompt: "Use $macos-tuist-app to scaffold or refactor a macOS app with Tuist, layered architecture, and SwiftUI."

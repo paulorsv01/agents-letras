@@ -1,0 +1,11 @@
+version = 1
+name = 'kotlin-multiplatform-expect-actual'
+remote = true
+dirty = false
+license = 'Apache-2.0'
+status = 'clean'
+
+[[sources]]
+url = 'https://github.com/chrisbanes/skills/tree/main/skills/kotlin-multiplatform-expect-actual'
+ref = 'main'
+path = 'skills/kotlin-multiplatform-expect-actual'

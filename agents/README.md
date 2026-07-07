@@ -12,5 +12,3 @@ O installer cria:
 ~/.agents/agents  ->  <repo>/agents
 ~/.claude/agents  ->  ~/.agents/agents
 ```
-
-Codex custom agents ficam em `codex/agents/`, porque usam outro formato.

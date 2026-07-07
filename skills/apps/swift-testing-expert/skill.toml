@@ -1,0 +1,11 @@
+version = 1
+name = 'swift-testing-expert'
+remote = true
+dirty = false
+license = 'MIT'
+status = 'clean'
+
+[[sources]]
+url = 'https://github.com/AvdLee/Swift-Testing-Agent-Skill/tree/main/swift-testing-expert'
+ref = 'main'
+path = 'swift-testing-expert'
